@@ -1,0 +1,165 @@
+/* >>>>>> STARTING HEAD & NAVIGATION<<<<<<<<  */
+.headerbox {
+    display: flex;
+    position: relative;
+    width: 1920px;
+    height: 1187px;
+}
+.logo{
+    position: absolute;
+    top: 67px;
+    left:132px;
+    width: 220px;
+    height: 39px;
+}
+.logo1{
+    vertical-align: top;
+    font-size: 32px;
+    font-family: 'Latoobold';
+    color: #3D37F1;
+    margin-right: 5px;
+}
+.logo2{
+    vertical-align: top;
+    font-size: 32px;
+    font-family: 'Latolight';
+    color: #4B647E;
+}
+.navhead{
+    display: flex;
+    width: 582px;
+    height: 24px;
+    justify-content: space-around;
+    margin: 82px 0 0 1052px;
+}
+.navhead a {
+    color: #3D37F1;
+    font:bold 20px 'Lato';
+
+
+    /* >>>>>>>>>>> STARTING OF FIRST SECTION  <<<<<<<<<< */
+}
+.mainhead {
+    position: absolute;
+    left: 132px;
+    top: 391px;
+    width: 600px;
+    height: 203px;
+    font-size: 78px;
+    color: #534D4D;
+    font-family: 'Latoobold';
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 1.4;
+}
+.text1{
+    position: absolute;
+    top:636px;
+    left: 132px;
+    font-size: 22px;
+    color: #534D4D;
+    font-family: 'Roboto';
+}
+.wavehandbutton{
+    display: flex;
+    position: absolute;
+    top:822.9px;
+    left: 132px;
+    width: 263.67px;
+    height: 76.77px;
+    font: normal 23px 'poppins';
+    border-radius: 50px;
+    background-color: #3D37F1;
+    justify-content: space-around;
+    align-items: center;
+}
+.wavehandbutton:hover{
+    opacity: 0.7;
+}
+.wavehandbutton img {
+    vertical-align: top;
+    margin-right: 15px;
+}
+.wavehandbutton a {
+    vertical-align: top;
+    color: white;
+
+}
+.mainheadphoto {
+    position: absolute;
+    top: 373px;
+    left: 1039px;
+}
+
+/* >>>>>>>>>> STARTING SECOND SECTION With NEW BLOCK <<<<<<<<< */
+
+.secondsection {
+    position: relative;
+    width: 1920px;
+    height: 1443.67px;
+    background-color: #FBFCFD;
+}
+
+.secondsection1 p {
+    position: absolute;
+    top: 87px;
+    left: 890px;
+    width: 140px;
+    height: 24px;
+    font: bold 20px 'lato';
+    color: #3D37F1
+}
+.secondsection2 p {
+    position: absolute;
+    top: 128px;
+    left: 671px;
+    font: normal 40px 'lato'; 
+    text-transform: capitalize;
+}
+.secondsection3 p {
+    position: absolute;
+    top: 197px;
+    left: 611px;
+    width: 712px;
+    height: 85px;
+    font: normal 18px 'roboto';
+    text-indent: 38px;
+    line-height: 1.5;
+
+}
+.secondsection3 span{
+    margin-left: 315px;
+}
+
+/* >>>>>>>>>>>>> STARTING OF CONTEINERBOXES <<<<<<<<<< */
+.coneinerofboxes{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 349px;
+    left: 375px;
+    justify-content: space-around;
+    width: 1172px;
+    height: 963px;
+
+}
+.childbox {
+    position: relative;
+    width: 370px;
+    height: 451px;
+}
+.childbox img {
+    position: absolute;
+    text-align: center;
+    top: 88px; 
+}
+.childbox h3 {
+    position: absolute;
+    top:244.9px;
+    text-align: center;
+    font: normal 22px 'lato';
+    color: white;
+}
+.chb1{
+    background-color: blue;
+}
