@@ -147,19 +147,57 @@
     position: relative;
     width: 370px;
     height: 451px;
+    background-image: linear-gradient(0deg, #FBBA77, rgb(230, 194, 142));
 }
 .childbox img {
     position: absolute;
-    text-align: center;
     top: 88px; 
+    left: 134px;
 }
 .childbox h3 {
     position: absolute;
     top:244.9px;
-    text-align: center;
+    left: 124.6px;
     font: normal 22px 'lato';
     color: white;
 }
-.chb1{
-    background-color: blue;
+.childbox p {
+    position: absolute;
+    top: 285px;
+    left: 40px;
+    width: 328px;
+    height: 62px;
+    text-indent: 8px;
+    color: white;
+    font: normal 16px 'roboto';
+}
+.childbox div{
+    position: absolute;
+    top:358px;
+    left:119px;
+    width: 131px;
+    height: 45px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    color:#4B647E;
+}
+.childbox div:hover{
+    opacity: 0.8;
+}
+.colorbox2{
+    background-image: linear-gradient(180deg, #41eae3, #00d4ff);
+}
+.colorbox3{
+    background-image: linear-gradient(180deg, #69529f, #ce82ecdc);
+}
+.colorbox4{
+    background-image: linear-gradient(0deg, #2c6fbb, #4691c4dc);
+}
+.childbox5{
+    background-image: linear-gradient(0deg, #302f5c, #A5A2F6);
+}
+.childbox6{
+    background-image: linear-gradient(0deg, #af1d26, #FF8088);
 }
